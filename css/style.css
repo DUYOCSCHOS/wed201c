@@ -14,8 +14,11 @@ nav {
 }
 
 main {
-    background-color: azure;
+    background-color: rgb(147, 212, 212);
     font-size: 30px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 5%;
 }
 
 footer {
@@ -26,13 +29,14 @@ li {
     display: block;
     text-align: center;
     width: 30%;
+    margin-top: 20px;
     float: left;
 }
 
 h1 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: crimson;
+    color: khaki;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 20px;
@@ -42,7 +46,7 @@ p {
     line-height: 120%;
 }
 
-img {
+.center {
     clear: both;
     display: block;
     margin-left: auto;
