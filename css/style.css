@@ -11,6 +11,12 @@ header {
 
 nav {
     background-color: cornsilk;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10%;
 }
 
 main {
@@ -25,13 +31,13 @@ footer {
     background-color: rgb(19, 172, 44);
 }
 
-li {
+/* li {
     display: block;
     text-align: center;
     width: 30%;
     margin-top: 20px;
     float: left;
-}
+} */
 
 h1 {
     text-align: center;
@@ -46,10 +52,30 @@ p {
     line-height: 120%;
 }
 
-.center {
+/* .center {
     clear: both;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 1%;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1% 2%;
 }
