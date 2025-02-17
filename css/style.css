@@ -30,7 +30,7 @@ p{
 }
 
 div img{
-    width:150px;
+    width:100%;
     height: 150px;
     display:block;
     margin:auto;
@@ -47,6 +47,9 @@ div{
     div {
         display: inline-block;
         width: 45vw;
+    }
+    
+    div img {
         max-height: 30vh;
     }
 }
